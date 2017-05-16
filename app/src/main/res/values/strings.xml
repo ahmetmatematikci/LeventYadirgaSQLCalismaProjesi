@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ders Takip</string>
+
+
+    <string name="action_settings">Ayarlar</string>
+    <string name="hakkinda">     Detylar Buraya yazılacak     </string>
+    <string-array name="dersler">
+        <item>Türkçe</item>
+        <item>Matematik</item>
+        <item>Fen ve Teknoloji</item>
+        <item>İngilizce</item>
+        <item>Sosyal ilgiler</item>
+        <item>Din Kültürü</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:id="@+id/action_settings"
+        android:orderInCategory="3"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:icon="@android:drawable/ic_input_add"
+        android:id="@+id/ekle"
+        android:orderInCategory="0"
+        android:title="Ekle"
+        app:showAsAction="always"/>
+
+    <item
+        android:icon="@android:drawable/ic_menu_my_calendar"
+        android:id="@+id/tarih"
+        android:orderInCategory="1"
+        android:title="Tarih Ekle"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:icon="@android:drawable/ic_menu_share"
+        android:id="@+id/paylas"
+        android:orderInCategory="2"
+        android:title="Paylaş"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/hakkinda"
+        android:orderInCategory="4"
+        android:title="Hakkında"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/tumunusil"
+        android:orderInCategory="5"
+        android:title="Tümünü Sil"
+        app:showAsAction="ifRoom|withText"/>
+
+
+</menu>
